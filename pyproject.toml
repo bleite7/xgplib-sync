@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "xgplib-sync"
+version = "0.1.0"
+description = "IGBD data synchronizer."
+authors = ["Bruno Leite <leite.bruno5@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pymongo = "^4.10.1"
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
